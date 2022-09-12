@@ -419,6 +419,9 @@
             "projectReferences": {
               "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj": {
                 "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Persistence\\Core.Persistence.csproj"
+              },
+              "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+                "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj"
               }
             }
           }

@@ -1,4 +1,7 @@
 ﻿using Application.Features.ProgrammingLanguages.Rules;
+using Application.Features.Technologies.Rules;
+using Application.Features.Users.Rules;
+using Application.Features.UserSocialMedias.Rules;
 using Core.Application.Pipelines.Validation;
 using FluentValidation;
 using MediatR;
@@ -14,8 +17,13 @@ namespace Application
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
-            services.AddScoped<ProgrammingLanguageBusinessRules>();
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+
+            services.AddScoped<ProgrammingLanguageBusinessRules>();
+            services.AddScoped<TechnologyBusinessRules>();
+            services.AddScoped<UserBusinessRules>();
+            services.AddScoped<UserSocialMediaBusinessRules>();
+
 
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
 
