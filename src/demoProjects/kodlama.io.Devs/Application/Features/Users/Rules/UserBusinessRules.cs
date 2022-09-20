@@ -1,4 +1,5 @@
-﻿using Application.Services.Repositories;
+﻿using Application.Features.Users.Dtos;
+using Application.Services.Repositories;
 using Core.CrossCuttingConcerns.Exceptions;
 using Core.Persistence.Paging;
 using Core.Security.Entities;
@@ -22,7 +23,7 @@ namespace Application.Features.Users.Rules
 
         public async Task EmailCanNotBeDuplicated(string email)
         {
-            IPaginate<User> result = await _userRepository.GetListAsync(b => b.Email == email);
+            IPaginate<User>? result = await _userRepository.GetListAsync(b => b.Email == email);
             if (result.Items.Any()) throw new BusinessException("Email already exists.");
 
         }

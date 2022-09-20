@@ -10,14 +10,14 @@ using MediatR;
 
 namespace Application.Features.Users.Commands.RegisterUser
 {
-    public class RegisterUserCommand:IRequest<UserLoginDto>
+    public class RegisterUserCommand:IRequest<UserDto>
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Email { get; set; }
         public string Password { get; set; }
 
-        public class UserRegisterCommandHandler : IRequestHandler<RegisterUserCommand, UserLoginDto>
+        public class UserRegisterCommandHandler : IRequestHandler<RegisterUserCommand, UserDto>
         {
             private readonly IUserRepository _userRepository;
             private readonly IMapper _mapper;
@@ -30,9 +30,9 @@ namespace Application.Features.Users.Commands.RegisterUser
                 _userBusinessRules = userBusinessRules;
             }
 
-            public async Task<UserLoginDto> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
+            public async Task<UserDto> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
             {
-                _userBusinessRules.EmailCanNotBeDuplicated(request.Email);
+                await _userBusinessRules.EmailCanNotBeDuplicated(request.Email);
 
                 byte[] passwordHash, passwordSalt;
                 HashingHelper.CreatePasswordHash(request.Password, out passwordHash, out passwordSalt);
@@ -44,7 +44,7 @@ namespace Application.Features.Users.Commands.RegisterUser
                 user.AuthenticatorType= AuthenticatorType.Email;
 
                 User registeredUser = await _userRepository.AddAsync(user);
-                UserLoginDto userDto= _mapper.Map<UserLoginDto>(registeredUser);
+                UserDto userDto= _mapper.Map<UserDto>(registeredUser);
                 return userDto;
             }
         }

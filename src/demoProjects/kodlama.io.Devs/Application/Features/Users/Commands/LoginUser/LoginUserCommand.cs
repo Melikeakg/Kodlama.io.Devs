@@ -38,7 +38,7 @@ namespace Application.Features.Users.Commands.LoginUser
                 var user = await _userRepository.GetAsync(u => u.Email == request.Email);
                 _userBusinessRules.UserShouldExistWhenRequested(user);
 
-                _userBusinessRules.VerifyPassword(request.Password,user.PasswordHash, user.PasswordSalt);
+                await _userBusinessRules.VerifyPassword(request.Password,user.PasswordHash, user.PasswordSalt);
 
                 var operationClaims = _userRepository.GetClaims(user);
                 var accessToken = _tokenHelper.CreateToken(user, operationClaims);
