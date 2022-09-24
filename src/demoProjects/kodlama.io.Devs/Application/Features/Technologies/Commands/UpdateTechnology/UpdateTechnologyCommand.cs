@@ -29,7 +29,7 @@ namespace Application.Features.Technologies.Commands.UpdateTechnology
 
             public async Task<UpdatedTechnologyDto> Handle(UpdateTechnologyCommand request, CancellationToken cancellationToken)
             {
-                _technologyBusinessRules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
+                 await _technologyBusinessRules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
 
                 Technology technology = _mapper.Map<Technology>(request);
 
