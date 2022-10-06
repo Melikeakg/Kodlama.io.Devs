@@ -4205,11 +4205,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
       "projectName": "Core.CrossCuttingConcerns",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",

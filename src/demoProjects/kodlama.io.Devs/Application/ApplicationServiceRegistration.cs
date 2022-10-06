@@ -1,7 +1,8 @@
-﻿using Application.Features.ProgrammingLanguages.Rules;
+﻿using Application.Features.Auths.Rules;
+using Application.Features.ProgrammingLanguages.Rules;
 using Application.Features.Technologies.Rules;
-using Application.Features.Users.Rules;
 using Application.Features.UserSocialMedias.Rules;
+using Application.Services.AuthService;
 using Core.Application.Pipelines.Validation;
 using FluentValidation;
 using MediatR;
@@ -17,15 +18,20 @@ namespace Application
             services.AddAutoMapper(Assembly.GetExecutingAssembly());
             services.AddMediatR(Assembly.GetExecutingAssembly());
 
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
 
             services.AddScoped<ProgrammingLanguageBusinessRules>();
             services.AddScoped<TechnologyBusinessRules>();
-            services.AddScoped<UserBusinessRules>();
             services.AddScoped<UserSocialMediaBusinessRules>();
+            services.AddScoped<AuthBusinessRules>();
 
-
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(AuthorizationBehavior<,>));
+            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(CachingBehavior<,>));
+            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(CacheRemovingBehavior<,>));
+            //services.AddTransient(typeof(IPipelineBehavior<,>), typeof(LoggingBehavior<,>));
             services.AddTransient(typeof(IPipelineBehavior<,>), typeof(RequestValidationBehavior<,>));
+
+            services.AddScoped<IAuthService, AuthManager>();
 
             return services;
         }
