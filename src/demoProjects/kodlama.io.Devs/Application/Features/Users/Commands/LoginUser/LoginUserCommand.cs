@@ -1,8 +1,15 @@
 ﻿using Application.Features.Users.Rules;
 using Application.Services.Repositories;
 using AutoMapper;
+using Core.Security.Entities;
 using Core.Security.JWT;
 using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Application.Features.Users.Commands.LoginUser
 {
@@ -29,7 +36,7 @@ namespace Application.Features.Users.Commands.LoginUser
             public async Task<AccessToken> Handle(LoginUserCommand request, CancellationToken cancellationToken)
             {
                 var user = await _userRepository.GetAsync(u => u.Email == request.Email);
-                 _userBusinessRules.UserShouldExistWhenRequested(user);
+                _userBusinessRules.UserShouldExistWhenRequested(user);
 
                 await _userBusinessRules.VerifyPassword(request.Password,user.PasswordHash, user.PasswordSalt);
 

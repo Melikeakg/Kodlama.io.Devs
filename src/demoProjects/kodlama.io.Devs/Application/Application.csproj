@@ -10,6 +10,9 @@
     <Folder Include="Features\ProgrammingLanguages\Constants\" />
     <Folder Include="Features\Technologies\Constants\" />
     <Folder Include="Features\UserSocialMedias\Queries\" />
+    <Folder Include="Features\Users\Constants\" />
+    <Folder Include="Features\Users\Models\" />
+    <Folder Include="Features\Users\Queries\" />
   </ItemGroup>
 
   <ItemGroup>

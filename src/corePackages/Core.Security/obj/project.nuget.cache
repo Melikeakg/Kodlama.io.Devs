@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YiT0weRqEq6C5wJA1GeRNHibMdmT6rSElgxpdtkk9uqZSBPkJAEsY4Kq5pI1X45lwGXA4nh6yLXqdbRLPt9UnA==",
+  "dgSpecHash": "+axeYEftYhMRDerBdG5V302cMCNPYcsqVoo3hI5xSnCeamDyZG8v4uhVZzfitw8jYuzLrXGkrW1NOEPJmH28tg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",

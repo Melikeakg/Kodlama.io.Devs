@@ -33,7 +33,7 @@ namespace Application.Features.Technologies.Commands.CreateTechnology
 
             public async Task<CreatedTechnologyDto> Handle(CreateTechnologyCommand request, CancellationToken cancellationToken)
             {
-                await _technologyBusinessRules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
+                _technologyBusinessRules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
 
                 Technology mappedTechnology = _mapper.Map<Technology>(request);
                 Technology createdTechnology = await _technologyRepository.AddAsync(mappedTechnology);

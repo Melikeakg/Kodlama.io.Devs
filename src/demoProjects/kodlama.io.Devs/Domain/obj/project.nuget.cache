@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E4JFYsRLIPpuGGnmdV29vutbgNink7tqS7Fwf4jfHrAeF8hRkYGPnQZSMpOVHBwuKxJVT7zeCAk/Z3/P2Ho6lw==",
+  "dgSpecHash": "ZWgLgoy8klAnIaZsWSQTeAXpfK9DlAxkLQoyxCKQeQHQK0wUk9faZu2X2u5atYJ+IltbhzghrZijdleZhyujQA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.1\\microsoft.entityframeworkcore.6.0.1.nupkg.sha512",

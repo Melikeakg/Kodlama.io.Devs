@@ -4877,11 +4877,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\Core.Application.csproj",
       "projectName": "Core.Application",
-      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\Core.Application.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4898,11 +4898,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.CrossCuttingConcers\\Core.CrossCuttingConcerns.csproj"
             },
-            "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
-              "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj"
+            "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj": {
+              "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Security\\Core.Security.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IDStgqVHv8KcS19Qtz0kxYrBe9Y+oR9ns+9upTG55ga8KtolkvtY+eFMPrtO184vMen1DI2N6uu6qcliGRS0yA==",
+  "dgSpecHash": "Bfejsl3n5nHMLZCLI9dwGUbX/Yhr2NZ35NQS/WgktUVd0fZNvesN0gF0+ePju3S+sBpQAV7Kx/QL/BUAw7VD2w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.ElasticSearch\\Core.ElasticSearch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\elasticsearch.net\\7.17.0\\elasticsearch.net.7.17.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",

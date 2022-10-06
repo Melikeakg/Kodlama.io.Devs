@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FqVtDNvRxZceUBgAAc1iPqqPNbwLy7AvT82Fq3xMhRpOTH2Xo5uTqE4L7yz5ZhQ0q8zbtbd8VtplTPeAWn76Qg==",
+  "dgSpecHash": "DfMs//AwNLtUM3PKhp2t0RLB5VuhCPFM0OC7aBY8xCAiJtTLJj0z7gOSRPqyrJdv3rITu4Mykw31RipNtsdhIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Mailing\\Core.Mailing.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\mailkit\\3.1.1\\mailkit.3.1.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

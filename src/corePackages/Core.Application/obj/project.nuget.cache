@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m+NGh36pekYUJuVDlyOi45kk3MoPGyz7Oqq0dkTMPiZNltb/3Lmbj0asd7EnAd9BiSpqImgoE1Dfejv5S3P++g==",
+  "dgSpecHash": "U0Lf3rATlj53oJUqjGN97HyR0F3R8EZEFx0BUqR6fkJ655tYf5eboH7W8o7hzsQh3quOdgBCHzeac9svMK9lvg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\Core.Application.csproj",
+  "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\corePackages\\Core.Application\\Core.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation\\10.3.6\\fluentvalidation.10.3.6.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\10.3.6\\fluentvalidation.dependencyinjectionextensions.10.3.6.nupkg.sha512",
