@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Desktop\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\LENOVO\\OneDrive\\Masaüstü\\Kodlama.io.Devs\\src\\demoProjects\\kodlama.io.Devs\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config",
