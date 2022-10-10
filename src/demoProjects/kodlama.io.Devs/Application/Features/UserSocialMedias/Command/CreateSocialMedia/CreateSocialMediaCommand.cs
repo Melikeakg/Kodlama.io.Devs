@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 
 namespace Application.Features.UserSocialMedias.Command.CreateSocialMedia
 {
-    public class CreateSocialMediaCommand:IRequest<CreatedSocialMediaDto>
+    public class CreateSocialMediaCommand : IRequest<CreatedSocialMediaDto>
     {
         public int UserId { get; set; }
         public string SocialMediaLink { get; set; }
@@ -32,11 +32,11 @@ namespace Application.Features.UserSocialMedias.Command.CreateSocialMedia
 
             public async Task<CreatedSocialMediaDto> Handle(CreateSocialMediaCommand request, CancellationToken cancellationToken)
             {
-                UserSocialMedia mappedUserSocialMedia=  _mapper.Map<UserSocialMedia>(request);
+                UserSocialMedia mappedUserSocialMedia = _mapper.Map<UserSocialMedia>(request);
 
-                UserSocialMedia createdUserSocialMedia=await _userSocialMediaRespository.AddAsync(mappedUserSocialMedia);
+                UserSocialMedia createdUserSocialMedia = await _userSocialMediaRespository.AddAsync(mappedUserSocialMedia);
 
-                CreatedSocialMediaDto createdSocialMediaCommandDto= _mapper.Map<CreatedSocialMediaDto>(createdUserSocialMedia);
+                CreatedSocialMediaDto createdSocialMediaCommandDto = _mapper.Map<CreatedSocialMediaDto>(createdUserSocialMedia);
 
                 return createdSocialMediaCommandDto;
             }

@@ -15,7 +15,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class TechnologiesController : BaseController
     {
-        [HttpGet]
+        [HttpGet("getlist")]
         public async Task<IActionResult> GetList([FromQuery]PageRequest pageRequest)
         {
             GetListTechnologyQuery getListTechnologyQuery = new GetListTechnologyQuery { PageRequest = pageRequest };
@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
             return Ok(result);
         }
 
-        [HttpGet("GetList/ByDynamic")]
+        [HttpGet("getlist/bydynamic")]
         public async Task<IActionResult> GetListByDynamic([FromQuery] PageRequest pageRequest, [FromBody] Dynamic dynamic)
         {
             GetListTechnologyByDynamicQuery getListTechnologyByDynamicQuery = new GetListTechnologyByDynamicQuery { PageRequest = pageRequest };
