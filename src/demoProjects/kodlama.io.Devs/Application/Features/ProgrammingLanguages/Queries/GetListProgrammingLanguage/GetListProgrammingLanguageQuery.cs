@@ -29,7 +29,6 @@ namespace Application.Features.ProgrammingLanguages.Queries.GetListProgrammingLa
 
                 ProgrammingLanguageListModel mappedProgrammingLanguageListModel 
                     = _mapper.Map<ProgrammingLanguageListModel>(languages);
-
                 return mappedProgrammingLanguageListModel;
             }
         }

@@ -7,7 +7,7 @@ using MediatR;
 
 namespace Application.Features.Technologies.Commands.UpdateTechnology
 {
-    public class UpdateTechnologyCommand : IRequest<UpdatedTechnologyDto>
+    public class UpdateTechnologyCommand:IRequest<UpdatedTechnologyDto>
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -29,7 +29,7 @@ namespace Application.Features.Technologies.Commands.UpdateTechnology
 
             public async Task<UpdatedTechnologyDto> Handle(UpdateTechnologyCommand request, CancellationToken cancellationToken)
             {
-                await _technologyBusinessRules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
+                 await _technologyBusinessRules.TechnologyNameCanNotBeDuplicatedWhenInserted(request.Name);
 
                 Technology technology = _mapper.Map<Technology>(request);
 

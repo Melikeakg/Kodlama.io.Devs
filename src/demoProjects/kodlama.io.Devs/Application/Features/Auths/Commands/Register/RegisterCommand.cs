@@ -22,9 +22,9 @@ namespace Application.Features.Auths.Commands.Register
 
         public class RegisterCommandHandler : IRequestHandler<RegisterCommand, RegisteredDto>
         {
-             private readonly AuthBusinessRules _authBusinessRules;
-             private readonly IUserRepository _userRepository;
-             private readonly IAuthService _authService;
+            private readonly AuthBusinessRules _authBusinessRules;
+            private readonly IUserRepository _userRepository;
+            private readonly IAuthService _authService;
 
             public RegisterCommandHandler(AuthBusinessRules authBusinessRules, IUserRepository userRepository, IAuthService authService)
             {
@@ -50,15 +50,15 @@ namespace Application.Features.Auths.Commands.Register
 
                 };
                 User createdUser = await _userRepository.AddAsync(newUser);
-
                 AccessToken createdAccessToken = await _authService.CreateAccessToken(createdUser);
+                
                 RefreshToken createdRefreshToken = await _authService.CreateRefreshToken(createdUser, request.IpAddress);
                 RefreshToken addedRefreshToken = await _authService.AddRefreshToken(createdRefreshToken);
 
                 RegisteredDto registeredDto = new()
                 {
-                    RefreshToken=addedRefreshToken,
-                    AccessToken= createdAccessToken
+                    RefreshToken = addedRefreshToken,
+                    AccessToken = createdAccessToken,
                 };
                 return registeredDto;
             }

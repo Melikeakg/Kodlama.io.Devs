@@ -11,7 +11,7 @@ namespace WebAPI.Controllers
     [ApiController]
     public class AuthController : BaseController
     {
-        [HttpPost("register")]
+        [HttpPost("Register")]
         public async Task<IActionResult> Register([FromBody] UserForRegisterDto userForRegisterDto)
         {
             RegisterCommand registerCommand = new()
