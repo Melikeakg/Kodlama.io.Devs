@@ -26,6 +26,8 @@ namespace Application.Features.ProgrammingLanguages.Profiles
 
             CreateMap<ProgrammingLanguage, UpdatedProgrammingLanguageDto>().ReverseMap();
             CreateMap<ProgrammingLanguage, UpdateProgrammingLanguageCommand>().ReverseMap();
+
+           
         }
     }
 }
